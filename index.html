@@ -6,68 +6,15 @@
     <title>Yan Thomas - Web Developer</title>
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="index.css">
     <script src="index.js"></script>
-    <style>
-
-        ::selection {
-            color: none;
-            background: none;
-        }
-
-
-        .divide {
-            margin-right: 16px;
-            margin-left: 16px;
-        }
-
-        .goto {
-            color: white;
-        }
-
-        .goto:hover {
-            color: grey;
-
-        }
-
-        #particle-wrapper {
-        position : absolute;
-        width:100%;
-        height:100%;
-        }
-        .separation-0 {
-            margin-top: 16px;
-        }
-
-        .separation {
-            margin-top: 64px;
-        }
-
-        .separation-3 {
-            margin-top: 72px;
-        }
-
-        .separation-4 {
-            margin-top: 81px;
-        }
-
-        .sticky {
-          position: fixed;
-          top: 0;
-          width: 100%
-        }
-
-        .great-index {
-          z-index: 10;
-        }
-
-    </style>
 </head>
 <body>
 
-    <section class="hero is-black is-fullheight">
+    <section class="hero gradient-background is-fullheight">
 
-      <div class="hero-foot great-index" id="header">
-        <nav class="tabs is-boxed is-fullwidth">
+      <div class="great-index" id="header">
+        <nav class="tabs is-fullwidth hover-effect">
           <div class="container">
             <ul>
               <li>
@@ -76,7 +23,7 @@
               <li>
                 <a href="#Skills">Skills</a>
               </li>
-              <li>
+              <li> 
                 <a href="#Projects">Projects</a>
               </li>
               <li>
@@ -91,11 +38,14 @@
 
         <div class="hero-body">
           <div class="container has-text-centered">
-            <h1 class="subtitle is-1">
+            <figure class="image is-128x128" style="margin-left: calc(50% - 64px);">
+              <img src="assets/logo.png">
+          </figure>
+            <h1 class="subtitle is-1 text-white">
               Yan Thomas
             </h1>
-            <h2 class="title is-1">
-              Front-End Web Developer
+            <h2 class="title is-1" style="color:#F9F871">
+              Full-Stack Web Developer
             </h2>
 
             <span class="icon is-medium divide">
@@ -110,6 +60,12 @@
         </div>
 
         </section>
+
+        <div class="custom-shape-divider-bottom-1604936129">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+          </svg>
+      </div>
         <div id="AboutMe"></div>
         <div class="separation-4"></div>
         <div class="separation-3"></div>
@@ -118,8 +74,8 @@
             <div class="columns">
                 <div class="column is-half">
                     <div class="box is-shadowless">
-                        <figure class="image is-256x256 is-desktop" style="margin-top: -16px;">
-                            <img src="assets/me.png">
+                        <figure class="image is-square">
+                            <img src="assets/astronaut.png">
                         </figure>
                     </div>
                 </div>
@@ -127,17 +83,21 @@
             <div class="column is-half">
                 <div class="separation-4"></div>
                 <div class="box is-shadowless">
-                <h1 class="title is-1 has-text-centered">ABOUT ME</h1>
+                <h1 class="title is-1 has-text-centered" style="color: #845EC2">ABOUT ME</h1>
                 <p class="has-text-centered">Hi, I'm Yan Thomas, a newbie 16 years old Front-End Web Developer from Brazil. I started coding in 2020, and so on my loving it. I have been always a lover of computers and videogames, and when I was approved in the local Technical School in my city I started my journey as a programmer. Right now, I'm learning more about HTML5, CSS3, JavaScript and React. And I'm looking forward to study Python and Flutter in a near future, aside from my personal projects I will add here!</p>
             </div>
         </div> 
       </div>
     </section>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="hsl(0, 0%, 4%)" fill-opacity="1" d="M0,160L60,149.3C120,139,240,117,360,138.7C480,160,600,224,720,240C840,256,960,224,1080,192C1200,160,1320,128,1380,112L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    <div class="custom-shape-divider-top-1604927811">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+      </svg>
+  </div>
 
-<section class="has-background-black">
-    <section class="container has-background-black">
+<section class="has-background-orange">
+    <section class="container has-background-orange">
         <div class="columns">
             <div class="column is-half is-offset-3">
                 <h1 class="title is-1 has-text-centered has-text-white">SKILLS</h1>
@@ -147,12 +107,12 @@
 
 <div class="separation-0"></div>
 
-    <section class="container has-background-black">
-        <div class="columns">
-            <div class="column is-half has-background-black">
-                <div class="box is-shadowless has-background-black">
-                <h1 class="title is-1 has-text-centered has-text-white">SOFT SKILLS</h1>
-                <div class="box is-shadowless has-background-danger">
+    <section class="container has-background-orange">
+        <div class="columns has-background-orange">
+            <div class="column is-half has-background-orange">
+                <div class="box is-shadowless has-background-orange">
+                <h1 class="title is-1 has-text-white has-text-centered">SOFT SKILLS</h1>
+                <div class="box is-shadowless has-background-orange">
                   <nav class="level">
                     <div class="level-item has-text-centered">
                       <div>
@@ -193,9 +153,9 @@
 
                     <div class="level-item has-text-centered">
                       <div>
-                        <p class="title has-text-white is-4">Confiable</p>
+                        <p class="title has-text-white is-4">Trusthworthy</p>
                         <figure class="image is-128x128">
-                          <img src="assets/confiable.png">
+                          <img src="assets/trustworthy.png">
                         </figure>
                       </div>
                     </div>
@@ -214,10 +174,10 @@
                 </div>
             </div>
 
-            <div class="column is-half has-background-black">
-                <div class="box is-shadowless has-background-black">
+            <div class="column is-half has-background-orange">
+                <div class="box is-shadowless has-background-orange">
                 <h1 class="title is-1 has-text-centered has-text-white">HARD SKILLS</h1>
-                <div class="box is-shadowless has-background-link">
+                <div class="box is-shadowless has-background-orange">
 
                   <nav class="level">
                     <div class="level-item has-text-centered">
@@ -257,10 +217,10 @@
                   <nav class="level">
                     <div class="level-item has-text-centered">
                       <div>
-                        <p class="title has-text-white is-4">React</p>
+                        <p class="title has-text-white is-4">NodeJs</p>
                         <figure class="image is-128x128">
                           <svg viewBox="0 0 128 128">
-                            <path fill="#61dafb" d="M107.3 45.2c-2.2-.8-4.5-1.6-6.9-2.3.6-2.4 1.1-4.8 1.5-7.1 2.1-13.2-.2-22.5-6.6-26.1-1.9-1.1-4-1.6-6.4-1.6-7 0-15.9 5.2-24.9 13.9-9-8.7-17.9-13.9-24.9-13.9-2.4 0-4.5.5-6.4 1.6-6.4 3.7-8.7 13-6.6 26.1.4 2.3.9 4.7 1.5 7.1-2.4.7-4.7 1.4-6.9 2.3-12.5 4.8-19.3 11.4-19.3 18.8s6.9 14 19.3 18.8c2.2.8 4.5 1.6 6.9 2.3-.6 2.4-1.1 4.8-1.5 7.1-2.1 13.2.2 22.5 6.6 26.1 1.9 1.1 4 1.6 6.4 1.6 7.1 0 16-5.2 24.9-13.9 9 8.7 17.9 13.9 24.9 13.9 2.4 0 4.5-.5 6.4-1.6 6.4-3.7 8.7-13 6.6-26.1-.4-2.3-.9-4.7-1.5-7.1 2.4-.7 4.7-1.4 6.9-2.3 12.5-4.8 19.3-11.4 19.3-18.8s-6.8-14-19.3-18.8zm-14.8-30.5c4.1 2.4 5.5 9.8 3.8 20.3-.3 2.1-.8 4.3-1.4 6.6-5.2-1.2-10.7-2-16.5-2.5-3.4-4.8-6.9-9.1-10.4-13 7.4-7.3 14.9-12.3 21-12.3 1.3 0 2.5.3 3.5.9zm-11.2 59.3c-1.8 3.2-3.9 6.4-6.1 9.6-3.7.3-7.4.4-11.2.4-3.9 0-7.6-.1-11.2-.4-2.2-3.2-4.2-6.4-6-9.6-1.9-3.3-3.7-6.7-5.3-10 1.6-3.3 3.4-6.7 5.3-10 1.8-3.2 3.9-6.4 6.1-9.6 3.7-.3 7.4-.4 11.2-.4 3.9 0 7.6.1 11.2.4 2.2 3.2 4.2 6.4 6 9.6 1.9 3.3 3.7 6.7 5.3 10-1.7 3.3-3.4 6.6-5.3 10zm8.3-3.3c1.5 3.5 2.7 6.9 3.8 10.3-3.4.8-7 1.4-10.8 1.9 1.2-1.9 2.5-3.9 3.6-6 1.2-2.1 2.3-4.2 3.4-6.2zm-25.6 27.1c-2.4-2.6-4.7-5.4-6.9-8.3 2.3.1 4.6.2 6.9.2 2.3 0 4.6-.1 6.9-.2-2.2 2.9-4.5 5.7-6.9 8.3zm-18.6-15c-3.8-.5-7.4-1.1-10.8-1.9 1.1-3.3 2.3-6.8 3.8-10.3 1.1 2 2.2 4.1 3.4 6.1 1.2 2.2 2.4 4.1 3.6 6.1zm-7-25.5c-1.5-3.5-2.7-6.9-3.8-10.3 3.4-.8 7-1.4 10.8-1.9-1.2 1.9-2.5 3.9-3.6 6-1.2 2.1-2.3 4.2-3.4 6.2zm25.6-27.1c2.4 2.6 4.7 5.4 6.9 8.3-2.3-.1-4.6-.2-6.9-.2-2.3 0-4.6.1-6.9.2 2.2-2.9 4.5-5.7 6.9-8.3zm22.2 21l-3.6-6c3.8.5 7.4 1.1 10.8 1.9-1.1 3.3-2.3 6.8-3.8 10.3-1.1-2.1-2.2-4.2-3.4-6.2zm-54.5-16.2c-1.7-10.5-.3-17.9 3.8-20.3 1-.6 2.2-.9 3.5-.9 6 0 13.5 4.9 21 12.3-3.5 3.8-7 8.2-10.4 13-5.8.5-11.3 1.4-16.5 2.5-.6-2.3-1-4.5-1.4-6.6zm-24.7 29c0-4.7 5.7-9.7 15.7-13.4 2-.8 4.2-1.5 6.4-2.1 1.6 5 3.6 10.3 6 15.6-2.4 5.3-4.5 10.5-6 15.5-13.8-4-22.1-10-22.1-15.6zm28.5 49.3c-4.1-2.4-5.5-9.8-3.8-20.3.3-2.1.8-4.3 1.4-6.6 5.2 1.2 10.7 2 16.5 2.5 3.4 4.8 6.9 9.1 10.4 13-7.4 7.3-14.9 12.3-21 12.3-1.3 0-2.5-.3-3.5-.9zm60.8-20.3c1.7 10.5.3 17.9-3.8 20.3-1 .6-2.2.9-3.5.9-6 0-13.5-4.9-21-12.3 3.5-3.8 7-8.2 10.4-13 5.8-.5 11.3-1.4 16.5-2.5.6 2.3 1 4.5 1.4 6.6zm9-15.6c-2 .8-4.2 1.5-6.4 2.1-1.6-5-3.6-10.3-6-15.6 2.4-5.3 4.5-10.5 6-15.5 13.8 4 22.1 10 22.1 15.6 0 4.7-5.8 9.7-15.7 13.4z"></path>
+                            <path fill="#83CD29" d="M112.771 30.334l-44.097-25.605c-2.781-1.584-6.402-1.584-9.205 0l-44.568 25.605c-2.87 1.651-4.901 4.754-4.901 8.073v51.142c0 3.319 2.084 6.423 4.954 8.083l11.775 6.688c5.628 2.772 7.617 2.772 10.178 2.772 8.333 0 13.093-5.039 13.093-13.828v-50.49c0-.713-.371-1.774-1.071-1.774h-5.623c-.712 0-2.306 1.061-2.306 1.773v50.49c0 3.896-3.524 7.773-10.11 4.48l-12.167-7.013c-.424-.23-.723-.693-.723-1.181v-51.142c0-.482.555-.966.982-1.213l44.424-25.561c.415-.235 1.025-.235 1.439 0l43.882 25.555c.42.253.272.722.272 1.219v51.142c0 .488.183.963-.232 1.198l-44.086 25.576c-.378.227-.847.227-1.261 0l-11.307-6.749c-.341-.198-.746-.269-1.073-.086-3.146 1.783-3.726 2.02-6.677 3.043-.726.253-1.797.692.41 1.929l14.798 8.754c1.417.82 3.027 1.246 4.647 1.246 1.642 0 3.25-.426 4.667-1.246l43.885-25.582c2.87-1.672 4.23-4.764 4.23-8.083v-51.142c0-3.319-1.36-6.414-4.229-8.073zM77.91 81.445c-11.726 0-14.309-3.235-15.17-9.066-.1-.628-.633-1.379-1.272-1.379h-5.731c-.709 0-1.279.86-1.279 1.566 0 7.466 4.059 16.512 23.453 16.512 14.039 0 22.088-5.455 22.088-15.109 0-9.572-6.467-12.084-20.082-13.886-13.762-1.819-15.16-2.738-15.16-5.962 0-2.658 1.184-6.203 11.374-6.203 9.105 0 12.461 1.954 13.842 8.091.118.577.645.991 1.24.991h5.754c.354 0 .692-.143.94-.396.24-.272.367-.613.335-.979-.891-10.568-7.912-15.493-22.112-15.493-12.631 0-20.166 5.334-20.166 14.275 0 9.698 7.497 12.378 19.622 13.577 14.505 1.422 15.633 3.542 15.633 6.395 0 4.955-3.978 7.066-13.309 7.066z"></path>
                             </svg>
                         </figure>
                       </div>
@@ -333,9 +293,11 @@
 </section>
 
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" >
-  <path fill="hsl(0, 0%, 4%)" fill-opacity="1" d="M0,192L80,165.3C160,139,320,85,480,101.3C640,117,800,203,960,218.7C1120,235,1280,181,1360,154.7L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
-</svg>
+<div class="custom-shape-divider-bottom-1604927811">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+  </svg>
+</div>
 
 <div id="Projects"></div>
 
@@ -346,42 +308,42 @@
   <div class="container">
     <div class="tile is-ancestor">
       <div class="tile is-parent">
-        <article class="tile is-child box has-background-info">
-          <p class="title has-text-centered has-text-white">Design Jam 1.0 Personal Portfolio</p>
-          <p class="subtitle has-text-centered has-text-light">Well, the portfolio you are seeing right now.</p>
+        <article class="tile is-child box gradient-background">
+          <p class="title has-text-centered has-text-white">School Work Web Portfolio</p>
+          <p class="subtitle has-text-centered has-text-light">Well... The portfolio in front of you right now.</p>
           <figure class="image is-4by3">
-            <img src="assets/cover_design_jam.png">
+            <img src="assets/portfolio.png">
           </figure>
           <div class="separation-0"></div>
-          <a class="goto" href="https://github.com/Yan-Thomas/Design-Jam-Submission" target="_blank"><button class="button is-dark is-fullwidth" href="/">GitHub Repository</button></a>
+          <a target="_blank"><button class="button is-link is-fullwidth is-rounded" href="/">GitHub Repository</button></a>
           <div class="separation-0"></div>
-          <a class="goto" href="https://yan-thomas.github.io/Design-Jam-Submission/" target="_blank"><button class="button is-dark is-medium is-fullwidth">Live Demo</button></a>
+          <a target="_blank"><button class="button is-white is-medium is-fullwidth is-outlined is-rounded">Live Demo</button></a>
         </article>
       </div>
 
       <div class="tile is-parent">
-        <article class="tile is-child box has-background-success">
+        <article class="tile is-child box gradient-background">
           <p class="title has-text-centered has-text-white">ERROR 404, project not found...</p>
           <p class="subtitle has-text-centered has-text-light">...just kidding. I just don't have any other project yet.</p>
           <figure class="image is-4by3">
           </figure>
           <div class="separation-0"></div>
-          <button class="button is-dark is-fullwidth" href="">GitHub Repository</button>
+          <a target="_blank"><button class="button is-link is-fullwidth is-rounded" href="/">GitHub Repository</button></a>
           <div class="separation-0"></div>
-          <button class="button is-dark is-medium is-fullwidth">Live Demo</button>
+          <a target="_blank"><button class="button is-white is-medium is-fullwidth is-outlined is-rounded">Live Demo</button></a>
         </article>
       </div>
 
       <div class="tile is-parent">
-        <article class="tile is-child box has-background-danger">
+        <article class="tile is-child box gradient-background">
           <p class="title has-text-centered has-text-white">I won't repeat myself, come back later!</p>
           <p class="subtitle has-text-centered has-text-light">I really don't have any other project yet :(</p>
           <figure class="image is-4by3">
           </figure>
           <div class="separation-0"></div>
-          <button class="button is-dark is-fullwidth" href="">GitHub Repository</button>
+          <a target="_blank"><button class="button is-link is-fullwidth is-rounded" href="/">GitHub Repository</button></a>
           <div class="separation-0"></div>
-          <button class="button is-dark is-medium is-fullwidth">Live Demo</button>
+          <a target="_blank"><button class="button is-white is-medium is-fullwidth is-outlined is-rounded">Live Demo</button></a>
         </article>
       </div>
 
@@ -390,14 +352,18 @@
   </div>
 
 </section>
-<div class="has-background-white">
-<svg style="margin:-8px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="hsl(0, 0%, 4%)" fill-opacity="1" d="M0,160L0,224L480,224L480,128L960,128L960,224L1440,224L1440,320L960,320L960,320L480,320L480,320L0,320L0,320Z"></path></svg>
+
+<div class="custom-shape-divider-bottom-1604948235" style="margin-bottom: -1px; margin-top:32px;">
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+  </svg>
 </div>
 
-<section class="has-background-black">
-  <div class="container has-background-black">
-    <h1 class="title is-1 has-text-white has-text-centered">CONTACT ME</h1>
-<div class="box has-background-black">
+<section class="has-background-grayblue is-shadowless">
+  
+  <div class="container has-background-grayblue is-shadowless">
+    <h1 class="title is-1 has-text-white has-text-centered is-shadowless">CONTACT ME</h1>
+<form class="box has-background-grayblue is-shadowless">
     <div class="field" id="ContactMe">
       <label class="label has-text-light">Name</label>
       <div class="control">
@@ -418,8 +384,8 @@
         <textarea class="textarea"></textarea>
       </div>
     </div>
-    <button class="button is-fullwidth is-outlined is-light">Submit</button>
-  </div>
+    <button class="button is-fullwidth is-outlined is-light is-rounded">Submit</button>
+  </form>
 
 
     
@@ -431,6 +397,15 @@
 <footer class="footer has-background-dark has-text-centered has-text-white">
 <p>Website made with ❤️ by Yan Thomas.</p>
 <p>Oh, you have seen everything here! You look tired, do you want a coffee? ☕️ </p>
+
+<div class="icon is-medium divide" style="margin-top: 32px;">
+  <a class="goto" href="https://github.com/Yan-Thomas" target="_blank"><i class="fab fa-github-square fa-3x"></i></a>
+</div>
+
+<div class="icon is-medium divide" style="margin-top: 32px;">
+  <a class="goto" href="https://www.linkedin.com/in/yan-thomas-30352b1a6" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+</div>
+
 </footer>
 
 </body>

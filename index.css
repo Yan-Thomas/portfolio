@@ -1,0 +1,171 @@
+
+        .text-black {
+            color: black;
+          }
+  
+          .text-white {
+            color: white;
+          }
+  
+          ::selection {
+              color: none;
+              background: none;
+          }
+  
+  
+          .divide {
+              margin-right: 16px;
+              margin-left: 16px;
+          }
+  
+          .goto {
+              color: white;
+              transition-property: position;
+              transition-duration: 1s;
+              transition-timing-function: linear;
+          }
+  
+          .goto:hover {
+              color: #F9F871;
+              position: relative;
+              top: -10px;
+          }
+  
+          #particle-wrapper {
+          position : absolute;
+          width:100%;
+          height:100%;
+          }
+  
+          .separation-0 {
+              margin-top: 16px;
+          }
+  
+          .separation {
+              margin-top: 64px;
+          }
+  
+          .separation-3 {
+              margin-top: 72px;
+          }
+  
+          .separation-4 {
+              margin-top: 81px;
+          }
+  
+          .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%
+          }
+  
+          .great-index {
+            z-index: 10;
+          }
+  
+          .custom-shape-divider-top-1604927811 {
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+          }
+          .custom-shape-divider-top-1604927811 .shape-fill {
+            fill:#FF6F91;
+          }
+  
+          .custom-shape-divider-bottom-1604927811 {
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+          }
+          .custom-shape-divider-bottom-1604927811 .shape-fill {
+            fill:#FF6F91;
+          }
+  
+          .custom-shape-divider-bottom-1604948235 {
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+          }
+  
+          .custom-shape-divider-bottom-1604948235 .shape-fill {
+            fill: #4B4453;
+          }
+  
+          .gradient-background {
+            background-image: linear-gradient(to bottom, #845ec2, #9c5dc0, #b15dbc, #c55cb7, #d65db1);
+          }
+  
+          .hover-effect a:hover {
+            color: #F9F871;
+          }
+  
+          .hover-effect a {
+            color: white;
+          }
+  
+          .hover-effect-2 a:hover {
+            color: #D65DB1;
+          }
+  
+          .hover-effect-2 a {
+            color: black;
+          }
+  
+          .has-background-purple {
+            background-color:#845EC2;
+          }
+  
+          .has-background-orange {
+            background-color: #FF6F91;
+          }
+  
+          .custom-shape-divider-bottom-1604936129 {
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+          }
+  
+          .custom-shape-divider-bottom-1604936129 .shape-fill {
+            fill: #D65DB1;
+          }
+  
+          .has-background-grayblue {
+            background-color: #4B4453;
+          }
+  
+          ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+          }
+          ::-webkit-scrollbar-button {
+            width: 4px;
+            height: 4px;
+          }
+          ::-webkit-scrollbar-thumb {
+            background: #f9f871;
+            border: 0px none #ffffff;
+            border-radius: 50px;
+          }
+          ::-webkit-scrollbar-thumb:hover {
+            background: #ff6f91;
+          }
+          ::-webkit-scrollbar-thumb:active {
+            background: #845ec2;
+          }
+          ::-webkit-scrollbar-track {
+            background: #ffffff;
+            border: 0px none #ffffff;
+            border-radius: 46px;
+          }
+          ::-webkit-scrollbar-track:hover {
+            background: #ffffff;
+          }
+          ::-webkit-scrollbar-track:active {
+            background: #f9f871;
+          }
+          ::-webkit-scrollbar-corner {
+            background: transparent;
+          }
+  
